@@ -39,7 +39,7 @@ const [text,setText]=useState("Enter Text Here");
     <div className="Text-sum">
     <h1>Text Summary</h1>
     <p>{text.split(" ").length}Words and {text.length}Character</p>
-    <p>{0.008*text.split("").length} sec/ word read</p>
+    <p>{0.08*text.split("").length} sec words read</p>
     <h3>Preview</h3>
     <p>{text}</p>
     </div>
